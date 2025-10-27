@@ -33,3 +33,11 @@ for i in range(5):
 file1.close()
 file2.close()
 ```
+```
+Result:
+False
+False
+False
+True
+True
+```
