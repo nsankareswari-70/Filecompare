@@ -19,3 +19,17 @@ file2.write("cloud \n")
 file2.close()
 ```
 
+```
+file1=open("page1.txt","r")
+file2=open("page2.txt","r")
+list1=file1.readlines()
+list2=file2.readlines()
+
+for i in range(5):
+    if list1[i]==list2[i]:
+        print("True")
+    else:
+        print("False")
+file1.close()
+file2.close()
+```
